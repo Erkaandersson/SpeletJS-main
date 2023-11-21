@@ -7,6 +7,7 @@
     <title>Document</title>
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/nice-select/dist/css/nice-select2.css">
 </head>
 <body>
     <header class="siteheader">
@@ -139,22 +140,26 @@
                       <img src="img/img5.jpg" alt="card-img">
                     </div>
                   </li>
-                  <div class="details">
-                    <p class="time">Tid: <span><b>30</b>s</span></p>
+                 
+                </ul>
+                <div class="details">
+                  <p>Tid</p>
+                    <select id="a-select">
+                      <option value="60">60 s</option>
+                      <option value="30">30 s</option>
+                      <option value="15">15 s</option>
+                    </select>
                     <p class="flips">Antal: <span><b>0</b></span></p>
                     <button>Starta om</button>
-                  </div>
-                </ul>
+                </div>
               </div>
             </div>
         </section>
-
-
-
     </main>
     <footer>
         (C) Stefan
     </footer>
+  <script src="/nice-select/dist/js/nice-select2.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
